@@ -1,33 +1,3 @@
-/*
-* Template Name: Animado - Animation & Cartoon Studio Template
-* Author:  Giantco
-* Author URL: https://themeforest.net/user/giantco
-* Version: 1.0
-*/
-
-/* =============================================================================
-
-[Table of contents]
-
-0.0 Common CSS START 
-1.0 HEADER AREA START 
-2.0 BANNER AREA START
-3.0 FEATURE AREA START
-4.0 ABOUT AREA START
-5.0 GALLERY AREA START
-6.0 PRODUCT AREA START
-7.0 TEAM AREA START
-8.0 PRICE AREA START
-9.0 REVIEW AREA START
-10.0 CONTACT AREA START 
-11.0 BLOG AREA START 
-12.0 SUBSCRIBE AREA START 
-13.0 FOOTER AREA START 
-14.0 COPY_RIGHT AREA START 
- 
-/*===========================
-0.0 *** Common CSS START ***
-=============================*/
 * {
     margin: 0;
     padding: 0;
@@ -83,7 +53,7 @@ p {
 }
 
 #dark-mode {
-    background: #08309e;
+    background: #ebeef4;
     overflow-x: hidden;
     position: relative;
     height: 100%;
@@ -106,12 +76,12 @@ p {
 
 /* model */
 .modal-content {
-    background: #08309e;
+    background: white;
 }
 
 .modal-title {
     font-size: 26px;
-    color: white;
+    color: black;
     font-family: pb;
 }
 
@@ -124,14 +94,14 @@ p {
 }
 
 .dropboxx {
-    background: #08309e;
+    background: white;
 }
 
 .dropboxx,
 .dropboxx2 {
     padding: 12px 20px;
     font-size: 17px;
-    color: white;
+    color: black;
     border: none;
     border-radius: 3px;
     font-family: pb;
@@ -148,12 +118,12 @@ p {
 }
 
 .close {
-    color: white;
+    color: black;
 }
 
 .close:hover,
 .close:focus {
-    color: #fff;
+    color: black;
     outline: 0;
 }
 
@@ -168,7 +138,7 @@ p {
     position: fixed;
     width: 100%;
     height: 100%;
-    background: #08309e;
+    background: white;
     z-index: 9999999;
     top: 0;
     left: 0;
@@ -183,8 +153,8 @@ p {
     margin-top: -200px;
     margin-left: -200px;
     border-radius: 2px;
-    background: #08309e;
-    color: #fff;
+    background: white;
+    color: black;
 }
 
 .center {
@@ -367,7 +337,7 @@ p {
     -webkit-box-shadow: 0 0 7px rgba(46, 59, 125, 0.23);
     box-shadow: 0 0 7px rgba(46, 59, 125, 0.23);
     border-radius: 50%;
-    background: #0d179b;
+    background: #white;
     -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
     box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
 }
@@ -412,7 +382,7 @@ p {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #fff;
+    color: black;
     font-family: pr;
     font-size: 17px;
     font-weight: 500;
@@ -424,7 +394,7 @@ p {
 }
 
 .bor {
-    background: #08309e;
+    background: white;
     padding: 10px 25px !important;
     position: relative;
     border-radius: 3px;
@@ -440,7 +410,7 @@ p {
     height: 44px;
     top: 7px;
     left: 0;
-    background: #08309e;
+    background: white;
     z-index: -1;
     border-radius: 3px;
     -webkit-transition: all linear .3s;
@@ -460,7 +430,7 @@ p {
 }
 
 .navbar-light .navbar-nav .nav-link:focus {
-    color: white;
+    color: black;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -472,7 +442,7 @@ p {
 }
 
 .navbar-light .navbar-brand {
-    color: #fff;
+    color: black;
     font-family: pb;
     font-size: 26px;
     -webkit-transition: all linear .3s;
@@ -494,14 +464,14 @@ p {
 }
 
 .nav-bg {
-    background: #08309e !important;
+    background: white !important;
     padding: 10px 0;
     -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
     box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
 }
 
 .nav-bg .navbar-brand {
-    color: #fff;
+    color: black;
     font-size: 26px;
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
@@ -509,7 +479,7 @@ p {
 }
 
 .nav-bg .navbar-brand:hover {
-    color: #fff;
+    color: black;
 }
 
 .nav-bg .bor {
@@ -521,11 +491,11 @@ p {
 }
 
 .nav-bg .bor:hover {
-    color: white !important;
+    color: black !important;
 }
 
 .nav-bg .navbar-nav .nav-link {
-    color: #fff;
+    color: black;
 }
 
 /*===========================
@@ -593,7 +563,7 @@ p {
 .banner-txt a {
     padding: 14px 20px;
     background: #F7B100;
-    color: white;
+    color: black;
     font-family: pb;
     font-size: 18px;
     position: relative;
@@ -788,7 +758,7 @@ p {
 .header-text h3 {
     font-size: 37px;
     font-family: pb;
-    color: white;
+    color: black;
     letter-spacing: 10px;
     position: relative;
     display: inline-block;
@@ -814,7 +784,7 @@ p {
 
 .over-i {
     font-size: 27px;
-    color: #fff;
+    color: black;
     width: 60px;
     height: 60px;
     line-height: 60px;
@@ -825,7 +795,7 @@ p {
 
 .over-item h3 {
     font-size: 24px;
-    color: white;
+    color: black;
     font-family: pb;
     padding: 20px 0;
     position: relative;
@@ -959,7 +929,7 @@ over-btn a i {
 .about-txt h3 {
     font-family: pb;
     font-size: 26px;
-    color: #fff;
+    color: black;
     padding-bottom: 16px;
     padding-top: 8px;
 }
@@ -978,7 +948,7 @@ over-btn a i {
 .about-txt a {
     padding: 14px 20px;
     background: #F7B100;
-    color: #fff;
+    color: black;
     font-size: 18px;
     font-family: pb;
     position: relative;
@@ -1106,7 +1076,7 @@ over-btn a i {
 .product-txt h3 {
     font-size: 25px;
     font-family: pb;
-    color: white;
+    color: black;
     padding-top: 6px;
     padding-bottom: 23px;
 }
@@ -1125,7 +1095,7 @@ over-btn a i {
 .product-txt a {
     padding: 14px 20px;
     background: #F7B100;
-    color: #fff;
+    color: black;
     font-size: 18px;
     font-family: pb;
 }
@@ -1150,7 +1120,7 @@ over-btn a i {
 
 .product-slider h3 {
     font-size: 26px;
-    color: white;
+    color: black;
     font-family: pb;
     padding-bottom: 6px;
 }
@@ -1246,7 +1216,7 @@ over-btn a i {
 .team-item h3 {
     font-family: pb;
     font-size: 26px;
-    color: white;
+    color: black;
     padding: 30px 0 14px;
 }
 
@@ -1267,7 +1237,7 @@ over-btn a i {
 .team-btn a {
     padding: 14px 20px;
     background: #F7B100;
-    color: #fff;
+    color: black;
     font-size: 18px;
     font-family: pb;
     position: relative;
@@ -1293,7 +1263,7 @@ over-btn a i {
 }
 
 .price-table h3 {
-    color: white;
+    color: black;
     font-family: pb;
     font-size: 18px;
     text-align: center;
@@ -1311,7 +1281,7 @@ over-btn a i {
 .price-table h4 {
     font-size: 40px;
     font-family: pb;
-    color: white;
+    color: black;
     text-align: center;
     padding-bottom: 30px;
 }
@@ -1340,7 +1310,7 @@ over-btn a i {
     font-family: pb;
     font-size: 16px;
     color: #08379c;
-    background: white;
+    background: black;
     text-align: center;
     border-radius: 50px;
     -webkit-transition: all linear .3s;
@@ -1350,7 +1320,7 @@ over-btn a i {
 
 .price-table a:hover {
     background: #F7B100;
-    color: white;
+    color: black;
 }
 
 .price-btn {
@@ -1359,7 +1329,7 @@ over-btn a i {
 
 .gold-bg2 a {
     background: #F7B100;
-    color: white;
+    color: black;
 }
 
 /*===========================
@@ -1426,7 +1396,7 @@ over-btn a i {
 .user-txt h3 {
     font-size: 24px;
     font-family: pb;
-    color: white;
+    color: black;
     padding-bottom: 10px;
 }
 
@@ -1477,11 +1447,11 @@ over-btn a i {
 .box-bg {
     background: #17057e;
     border: 1px solid #071094;
-    color: #fffbfb;
+    color: blackbfb;
 }
 
 .box-bg:focus {
-    color: #fff;
+    color: black;
     background: #042286;
     border: 1px solid #042285;
 }
@@ -1494,7 +1464,7 @@ input::-moz-placeholder,
 textarea::-moz-placeholder,
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-    color: white !important;
+    color: black !important;
 }
 
 .contact-input {
@@ -1508,7 +1478,7 @@ textarea:-ms-input-placeholder {
 
 .con-btn {
     padding: 15px 40px;
-    color: white;
+    color: black;
     font-family: pb;
     background: #F7B100;
     border-radius: 50px;
@@ -1556,7 +1526,7 @@ textarea:-ms-input-placeholder {
 
 input::placeholder,
 textarea::placeholder {
-    color: white !important;
+    color: black !important;
 }
 
 /*===========================
@@ -1579,7 +1549,7 @@ textarea::placeholder {
 }
 
 .tags h4 {
-    color: white;
+    color: black;
     font-family: pb;
     padding-bottom: 45px;
     font-size: 21px;
@@ -1597,7 +1567,7 @@ textarea::placeholder {
 }
 
 .blog-item-txt h3 {
-    color: white;
+    color: black;
     font-size: 24px;
     font-family: pb;
     padding: 22px 0 16px;
@@ -1628,7 +1598,7 @@ textarea::placeholder {
 .search-btn {
     width: 60px;
     background: #F7B100;
-    color: white;
+    color: black;
     border: 1px solid #F7B100;
 }
 
@@ -1642,7 +1612,7 @@ textarea::placeholder {
 
 .sub-main {
     padding: 30px 0;
-    background: #FFFFFF;
+    background: blackFFF;
     border-radius: 50px;
 }
 
@@ -1658,7 +1628,7 @@ textarea::placeholder {
     padding: 15px 25px;
     border-radius: 50px;
     font-family: pb;
-    color: white;
+    color: black;
     font-size: 18px;
 }
 
@@ -1689,12 +1659,12 @@ textarea::placeholder {
 .footer-social i {
     width: 45px;
     height: 45px;
-    border: 1px solid #fff;
+    border: 1px solid black;
     line-height: 45px;
     text-align: center;
     border-radius: 50%;
     color: #F7B100;
-    background: white;
+    background: black;
     font-size: 20px;
     margin-left: 13px;
     margin-top: 15px;
@@ -1705,14 +1675,14 @@ textarea::placeholder {
 
 .footer-social i:hover {
     background: #F7B100;
-    color: #fff;
+    color: black;
     border: 1px solid #F7B100;
 }
 
 .links h3 {
     font-size: 21px;
     font-family: pb;
-    color: #fff;
+    color: black;
     font-weight: 600;
     text-transform: capitalize;
     padding-bottom: 4px;
@@ -1756,13 +1726,13 @@ textarea::placeholder {
 }
 
 .insta-item {
-    color: white;
+    color: black;
 }
 
 .fg2 input {
     border-radius: 50px;
     background: none;
-    color: #fff;
+    color: black;
     border: 1px solid #ff416c;
 }
 
@@ -1791,7 +1761,7 @@ textarea::placeholder {
     top: 65px;
     border: none;
     background: #ff416c;
-    color: #fff;
+    color: black;
 }
 
 .fg2 button:hover {
@@ -1814,7 +1784,7 @@ textarea::placeholder {
 }
 
 .fop-btm h2 {
-    color: #fff;
+    color: black;
     font-size: 16px;
     font-family: pr;
     margin-bottom: 0;
@@ -1840,12 +1810,12 @@ textarea::placeholder {
 } 
 
 .custom_h4 {
-    color: white;
+    color: black;
     padding-bottom: 5px;
 }
 
 .custom2_h4 {
-    color: white;
+    color: black;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -1927,7 +1897,7 @@ bottom: 0;
 
 
 .my-nav {
-    color: #fff !important;
+    color: black !important;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
