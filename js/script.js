@@ -8,13 +8,6 @@ document.querySelector('#menu-btn').onclick = () =>{
    searchForm.classList.remove('active');
    loginForm.classList.remove('active');
 };
-(function ($) {
-// preloader
-$(window).on('load', function () {
-   $('.preloader').delay(3000).fadeOut(3000);
-
-}) ;
-});
 
 document.querySelector('#search-btn').onclick = () =>{
    searchForm.classList.toggle('active');
