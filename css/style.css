@@ -19,6 +19,10 @@
   border: none;
   text-decoration: none;
 }
+.logo_main {
+  width: 100px;
+  height: auto;
+}
 
 html {
   font-size: 62.5%;
