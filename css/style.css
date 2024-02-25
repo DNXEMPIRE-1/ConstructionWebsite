@@ -1847,7 +1847,7 @@ letter-spacing: 0.2em;
 .loader::before, .loader::after {
 content: "";
 display: block;
-width: 50px;
+width: 100px;
 height: 15px;
 background: #F7B100;
 position: absolute;
