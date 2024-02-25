@@ -14,7 +14,7 @@ $(window).on('load', function () {
    $('.preloader').delay(3000).fadeOut(3000);
 
 }) ;
-}(jQuery));
+});
 
 document.querySelector('#search-btn').onclick = () =>{
    searchForm.classList.toggle('active');
