@@ -126,7 +126,7 @@
     });
     // preloader
     $(window).on('load', function () {
-        $('.preloader').delay(1000).fadeOut(1000);
+        $('.preloader').delay(3000).fadeOut(3000);
 
     });
     // Closes responsive menu when a scroll link is clicked
