@@ -1830,8 +1830,8 @@ textarea::placeholder {
 }
   
 .loader {
-width: 1000px;
-height: 50px;
+width: 250px;
+height: 100px;
 line-height: 100px;
 text-align: center;
 position: absolute;
