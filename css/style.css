@@ -1832,7 +1832,7 @@ textarea::placeholder {
 .loader {
 width: 250px;
 height: 50px;
-line-height: 50px;
+line-height: 250px;
 text-align: center;
 position: absolute;
 top: 50%;
