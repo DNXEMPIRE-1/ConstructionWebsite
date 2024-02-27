@@ -811,7 +811,7 @@ a:focus {
     margin: 45px 0;
     height: 100%;
     min-height: 500px;
-    background: linear-gradient(rgba(3, 15, 39, .9), rgba(3, 15, 39, .9)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(3, 15, 39, .9), rgba(3, 15, 39, .9)), url(../img/home-slide-3.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1137,7 +1137,7 @@ a:focus {
     margin: 45px 0;
     padding: 90px 0;
     text-align: center;
-    background: linear-gradient(rgba(3, 15, 39, .9), rgba(3, 15, 39, .9)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(3, 15, 39, .9), rgba(3, 15, 39, .9)), url(../img/home-slide-3.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
