@@ -37,7 +37,7 @@ const portfolioData = [
     { category: "house-renovation", image: "img/hr3.jpg", title: "house-renovation" },
     { category: "building-construction", image: "img/con5.jpg", title: "Construction" },
     { category: "architecture-design", image: "img/ad.jpg", title: "architecture-design" },
-    { category: "building-construction", image: "img/con.jpg", title: "Construction" },
+    { category: "building-construction", image: "img/cons.jpg", title: "Construction" },
     { category: "building-construction", image: "img/con6.jpg", title: "Construction" },
     { category: "building-construction", image: "img/con7.jpg", title: "Construction" },
     { category: "building-construction", image: "img/con8.jpg", title: "Construction" },
