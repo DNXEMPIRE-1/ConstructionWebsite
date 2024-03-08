@@ -2,15 +2,23 @@ document.addEventListener("DOMContentLoaded", function() {
     const portfolio = document.getElementById("portfolio");
     const categories = document.querySelectorAll("nav a");
 
+    
+
     categories.forEach(category => {
         category.addEventListener("click", function() {
             const categoryFilter = this.dataset.category;
             portfolio.innerHTML = ""; // Clear portfolio
+            const filteredItems = (category === "all") ? portfolioData : portfolioData.filter(item => {
+                return item.category === category;
+            });
+            
 
             // Filter images based on selected category
             const filteredImages = portfolioData.filter(item => {
                 return item.category === categoryFilter || categoryFilter === "all";
             });
+            
+            
 
             filteredImages.forEach(item => {
                 const imgElement = document.createElement("div");
@@ -21,6 +29,9 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+    
+
 
 // Sample data for portfolio items
 const portfolioData = [
