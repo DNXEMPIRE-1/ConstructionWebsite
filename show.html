@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flomatexs Construction Limited</title>
+    <link rel = "icon" href = "img/flomatexs.png" type = "image/x-icon">
+    <!-- Fancybox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <!-- Your custom CSS -->
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <header>
+        <h1>Projects Showcase</h1>
+    </header>
+
+<div class="container">
+    <div class="project">
+        <h2>Karen project</h2>
+        <div class="images">
+           
+            <a href="img/proj1/IMG-20240307-WA0125.jpg" data-fancybox="project1" data-caption="Image 2">
+                <img src="img/proj1/IMG-20240307-WA0125.jpg" alt="Image 2">
+            </a>
+            <a href="img/proj1/IMG-20240307-WA0130.jpg" data-fancybox="project1" data-caption="Image 1">
+                <img src="img/proj1/IMG-20240307-WA0130.jpg" alt="Image 1">
+            </a>
+            <a href="img/proj1/IMG-20240307-WA0142.jpg" data-fancybox="project1" data-caption="Image 1">
+                <img src="img/proj1/IMG-20240307-WA0142.jpg" alt="Image 1">
+            </a>
+            <a href="img/proj1/IMG-20240307-WA0160.jpg" data-fancybox="project1" data-caption="Image 1">
+                <img src="img/proj1/IMG-20240307-WA0160.jpg" alt="Image 1">
+            </a>
+            <a href="img/proj1/IMG-20240307-WA0168.jpg" data-fancybox="project1" data-caption="Image 1">
+                <img src="img/proj1/IMG-20240307-WA0168.jpg" alt="Image 1">
+            </a>
+            <a href="img/proj1/IMG-20240307-WA0172.jpg" data-fancybox="project1" data-caption="Image 1">
+                <img src="img/proj1/IMG-20240307-WA0172.jpg" alt="Image 1">
+            </a>
+            <a href="img/proj1/IMG-20240307-WA0176.jpg" data-fancybox="project1" data-caption="Image 1">
+                <img src="img/proj1/IMG-20240307-WA0176.jpg" alt="Image 1">
+            </a>
+            <!-- Add more images for Project 1 -->
+        </div>
+        <button class="btn" data-project="project1">View</button>
+        <button class="btn" href="portfolio.html">Back</button>
+    </div>
+
+    <div class="project">
+        <h2>Karen baobab project</h2>
+        <div class="images">
+            <a href="img/project2/img1.jpg" data-fancybox="project2" data-caption="Image 1">
+                <img src="img/project2/img1.jpg" alt="Image 1">
+            </a>
+            <a href="img/project2/img2.jpg" data-fancybox="project2" data-caption="Image 2">
+                <img src="img/project2/img2.jpg" alt="Image 2">
+            </a>
+            <!-- Add more images for Project 2 -->
+        </div>
+        <button class="btn" data-project="project1">View</button>
+        <button class="btn" href="portfolio.html">Back</button>
+    </div>
+
+    <!-- Add more projects as needed -->
+</div>
+
+<!-- Fancybox JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<!-- Your JavaScript code -->
+<script>
+    $(document).ready(function () {
+        $('.btn').click(function () {
+            var project = $(this).data('project');
+            $('[data-fancybox="' + project + '"]').eq(0).trigger('click');
+        });
+    });
+</script>
+
+</body>
+</html>
