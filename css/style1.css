@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-image: url(/img/back.avif); /* Replace 'background.jpg' with your actual background image path */
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     color: #ffffff; /* Set text color to white */
 }
