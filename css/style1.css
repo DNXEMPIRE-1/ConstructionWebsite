@@ -20,6 +20,7 @@ h1 {
 h2 {
     margin: 0;
     color: black;
+    font-style: bold;
 }
 .btn {
     display: block; /* Change display to block to center the button */
