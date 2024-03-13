@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(/img/conback.webp); /* Replace 'background.jpg' with your actual background image path */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* Set text color to white */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+h2 {
+    margin: 0;
+    color: yellow;
+}
+.btn{
+   background-color: darkcyan;
+   color: yellow; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images a {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.images img {
+    width: 200px;
+    height: auto;
+}
