@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url(/img/conback.webp); /* Replace 'background.jpg' with your actual background image path */
+    background-image: url(/img/logo1.png); /* Replace 'background.jpg' with your actual background image path */
     background-size: cover;
     background-position: center;
     color: #ffffff; /* Set text color to white */
@@ -21,10 +21,20 @@ h2 {
     margin: 0;
     color: yellow;
 }
-.btn{
-   background-color: darkcyan;
-   color: yellow; 
+.btn {
+    display: block; /* Change display to block to center the button */
+    width: 200px; /* Set the width of the button */
+    padding: 15px; /* Set padding for the button */
+    margin: 20px auto; /* Center the button horizontally */
+    text-align: center; /* Center the text horizontally */
+    background-color: darkcyan;
+    color: yellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from the link */
 }
+
 
 .container {
     max-width: 1200px;
