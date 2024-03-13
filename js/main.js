@@ -31,6 +31,7 @@
     });
     
     
+    
     // Dropdown on mouse hover
     $(document).ready(function () {
         function toggleNavbarMethod() {
